@@ -8,17 +8,20 @@ This allows users to focus on their work and stay on top of their tasks with eas
 
 ## Application Tracker
 
+## Calendar 
+he calendar interface offers a user-friendly and intuitive display of all scheduled events. It presents clickable tiles that reveal the events for a selected date when clicked upon. To add an event, users can easily access the "Add Event" button, triggering a pop-up form where they can input event details and submit it for inclusion in their calendar. Similarly, events can be effortlessly deleted using the designated delete button.
 
-# Transcript Summaries
+Meetings are specifically highlighted with a distinctive green box. By clicking on a meeting event, users can access a concise summary, which proves beneficial in cases where attendance is not possible. This time-saving feature significantly enhances productivity by allowing participants to quickly review essential points and take necessary actions. The provision of meeting summaries streamlines collaboration and optimising valuable working hours. More information on transcript summaries is below. 
+
+## Transcript Summaries
 We are excited to add Ai Meeting Transcript, a game-changing addition to the Nexus calendar that is set to redefine the way you interact with online meetings on Microsoft Teams. Leveraging cutting-edge technology powered by Azure OpenAI and seamlessly integrated with Microsoft Graph, Ai Meeting Transcript offers an automatic meeting transcription summarizer, ensuring you never miss out on vital discussions, even if you couldn't attend in real-time.
 
  With its seamless integration into Nexus, our application effortlessly extracts meeting transcriptions from Microsoft Graph and leverages the power of Azure OpenAI to generate concise and informative summaries of the entire meeting.
 
-# File Summary
+## File Summary
 We are delighted to introduce DocDigest, an innovative tool that harnesses the cutting-edge capabilities of Microsoft Graph, enabling users to select and upload various file types, including Word documents, PowerPoint presentations, and PDFs, directly from their OneDrive. With the added flexibility to upload PDF files from local storage, DocDigest ensures seamless accessibility, empowering users to unlock the potential of their materials.
 
 Powered by the Azure OpenAI platform, DocDigest processes the text extracted from uploaded files. Our tool generates summaries that provide understanding of core concepts within the material while surpassing the readability of the original content.
-
 
 
 ## Chatbot
@@ -37,6 +40,6 @@ To further enhance user experience, Nexus offers grouping functionality. This fe
 
 ## Universal Search Bar
 
-## Calendar 
+
 
 
