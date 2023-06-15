@@ -9,7 +9,15 @@ This allows users to focus on their work and stay on top of their tasks with eas
 ## Application Tracker
 
 
-## File Summariser
+# Transcript Summaries
+We are excited to add Ai Meeting Transcript, a game-changing addition to the Nexus calendar that is set to redefine the way you interact with online meetings on Microsoft Teams. Leveraging cutting-edge technology powered by Azure OpenAI and seamlessly integrated with Microsoft Graph, Ai Meeting Transcript offers an automatic meeting transcription summarizer, ensuring you never miss out on vital discussions, even if you couldn't attend in real-time.
+
+ With its seamless integration into Nexus, our application effortlessly extracts meeting transcriptions from Microsoft Graph and leverages the power of Azure OpenAI to generate concise and informative summaries of the entire meeting.
+
+# File Summary
+We are delighted to introduce DocDigest, an innovative tool that harnesses the cutting-edge capabilities of Microsoft Graph, enabling users to select and upload various file types, including Word documents, PowerPoint presentations, and PDFs, directly from their OneDrive. With the added flexibility to upload PDF files from local storage, DocDigest ensures seamless accessibility, empowering users to unlock the potential of their materials.
+
+Powered by the Azure OpenAI platform, DocDigest processes the text extracted from uploaded files. Our tool generates summaries that provide understanding of core concepts within the material while surpassing the readability of the original content.
 
 
 
@@ -30,6 +38,5 @@ To further enhance user experience, Nexus offers grouping functionality. This fe
 ## Universal Search Bar
 
 ## Calendar 
-## Transcript Summaries
 
 
