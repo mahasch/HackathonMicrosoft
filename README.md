@@ -2,9 +2,11 @@
 Nexus Productivity-Focused Submission
 
 ## What is our product?
-Our submission is a teams tab application that links to our website focusing on student productivity.
-We have integrated teams, outlook and Calendar to provide a centralised hub for students to access their resources and stay organised. It removes the need to switch between multiple applications, saving time and effort.
-This allows users to focus on their work and stay on top of their tasks with ease and efficiency. Having a unified 
+Our submission is a Teams Tab application that seamlessly integrates with our website, focusing on enhancing student productivity. By integrating Teams, Outlook, and Calendar, we have created a centralized hub for students to access their resources and stay organized.
+
+This innovative application eliminates the need for students to switch between multiple applications, saving them valuable time and effort. With all the essential tools integrated into one platform, students can effortlessly focus on their work and efficiently manage their tasks.
+
+By leveraging the power of Teams, Outlook, and Calendar, students can access their files, communicate with peers and instructors, and keep track of important deadlines, all within a unified interface. This streamlined workflow promotes productivity and ensures that students can stay on top of their academic responsibilities with ease.
 
 ## Application Tracker
 Introducing our Job Application Tracker, a sophisticated solution for managing applications. Powered by a robust .NET Web API backend and integrated with Azure OpenAI and Microsoft Graph, this platform sets a new standard in organizational efficiency and career advancement.
