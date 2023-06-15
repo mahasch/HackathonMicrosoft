@@ -7,6 +7,11 @@ We have integrated teams, outlook and calendar to provide a centralised hub for 
 This allows users to focus on their work and stay on top of their tasks with ease and efficiency. Having a unified 
 
 ## Application Tracker
+Introducing our Job Application Tracker, a sophisticated solution for managing applications. Powered by a robust .NET Web API backend and integrated with Azure OpenAI and Microsoft Graph, this platform sets a new standard in organizational efficiency and career advancement.
+
+The Application tracker harness Azure OpenAI's potential to generates schedules for interviews and assessments with details that can be easily adjusted for accuracy. This allows users to stay organized with structured application timelines as well being able track each application's progress effortlessly, from submission to interviews and assessments.
+
+Our intuitive interface provides a comprehensive overview of your entire job application journey. Escape email overload with our email grouping feature. The tracker organizes your inbox by company, autofills email addresses based on company names, and flags applications with unread emails. Effortlessly archive inactive applications, switch between display modes, and sort applications by differnt proiorities. Update interview and assessment details seamlessly through our intuitive interface using smart dropdown menus.
 
 ## Calendar 
 he calendar interface offers a user-friendly and intuitive display of all scheduled events. It presents clickable tiles that reveal the events for a selected date when clicked upon. To add an event, users can easily access the "Add Event" button, triggering a pop-up form where they can input event details and submit it for inclusion in their calendar. Similarly, events can be effortlessly deleted using the designated delete button.
