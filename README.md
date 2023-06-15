@@ -45,6 +45,8 @@ To further enhance user experience, Nexus offers grouping functionality. This fe
 
 ## Universal Search Bar
 
+The Nexus universal search bar is a powerful tool that enables users to quickly locate and retrieve information from across multiple Microsoft platforms. By leveraging the Microsoft Graph API, Nexus offers a unified search experience that allows users to search for emails, files, and calendar events from a single location. This capability eliminates the need to switch between different applications, saving valuable time and effort. In this post-covid era, Universities use online teaching and communicate in many different ways. Sometimes, this information gets lost. The universal search bar solves the problem of having to switch between multiple applications to find the information you need.
+
 
 
 
