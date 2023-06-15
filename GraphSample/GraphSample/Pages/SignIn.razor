@@ -117,9 +117,11 @@
             <div class="row">
               <div class="col-12">
                 <div class="log-in-button d-flex gap-2 gap-sm-3 justify-content-center">
-                <a href="authentication/login" class="btn btn-lg btn-outline-danger p-3 lh-1">
-                    Log in
+                <a href="authentication/login" class="btn btn-lg btn-outline-danger p-3 lh-1"  @onclick="setstudent">
+                    Student Log in
                 </a>
+                <a href="authentication/login" class="btn btn-lg btn-outline-danger p-3 lh-1">
+                    Staff Log in
                 </div>
               </div>
             </div>
@@ -134,76 +136,9 @@
 
 
 @code{
-
-    [CascadingParameter]
-    private Task<AuthenticationState>? authenticationStateTask { get; set; }
-    private GraphServiceClient? graphClient;
-    [Inject]
-    protected IAccessTokenProvider AccessTokenProvider { get; set; }
-    protected string? AccessToken { get; private set; }
-    public int count = 0;
-    public System.Security.Claims.ClaimsPrincipal user { get; set; }
-
-    [JSInvokable]
-    private async Task<String> GetAccessToken()
+    public bool student=false;
+    private async Task setstudent()
     {
-        return this.AccessToken;
-    }
-
-    bool isTeams = true;
-    protected override async Task OnInitializedAsync()
-    {
-        try
-        {
-            var uri = new Uri(Navigation.Uri);
-            var queryParams = Microsoft.AspNetCore.WebUtilities.QueryHelpers.ParseQuery(uri.Query);
-            var teams = queryParams.TryGetValue("teams", out var teamsValue) ? teamsValue.ToString() : null;
-            
-            var tokenResult = await AccessTokenProvider.RequestAccessToken();
-            if (tokenResult.TryGetToken(out var accessToken))
-            {
-                AccessToken = accessToken.Value;
-                count += 1;
-            }
-            if (authenticationStateTask == null)
-            {
-                throw new AuthenticationException(
-                "Unable to access authentication state");
-            }
-            user = (await authenticationStateTask).User;
-            graphClient = clientFactory.GetAuthenticatedClient();
-
-            if (!string.IsNullOrEmpty(teams))
-            {
-                // The "teams" query parameter is present, indicating that the app is running within Microsoft Teams
-                isTeams = true;
-                await JSRuntime.InvokeVoidAsync("TeamsLogin");
-            }
-            else
-            {
-                isTeams = false;
-                await JSRuntime.InvokeVoidAsync("mgtInterop.configureProvider", AccessToken);
-            }
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine(ex.Message);
-            isTeams = false; 
-            var tokenResult = await AccessTokenProvider.RequestAccessToken();
-            if (tokenResult.TryGetToken(out var accessToken))
-            {
-                AccessToken = accessToken.Value;
-                count += 1;
-            }
-            if (authenticationStateTask == null)
-            {
-                throw new AuthenticationException(
-                "Unable to access authentication state");
-            }
-            user = (await authenticationStateTask).User;
-            graphClient = clientFactory.GetAuthenticatedClient();
-            await JSRuntime.InvokeVoidAsync("mgtInterop.configureProvider", AccessToken);
-        }
-        StateHasChanged();
+        student=true;
     }
 }
