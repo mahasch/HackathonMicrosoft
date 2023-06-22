@@ -9,15 +9,11 @@ This innovative application eliminates the need for students to switch between m
 By leveraging the power of Teams, Outlook, and Calendar, students can access their files, communicate with peers and instructors, and keep track of important deadlines, all within a unified interface. This streamlined workflow promotes productivity and ensures that students can stay on top of their academic responsibilities with ease.
 
 ## Application Tracker
-Introducing our Job Application Tracker, a sophisticated solution for managing applications. Powered by a robust .NET Web API backend and integrated with Microsoft Graph, this platform sets a new standard in organizational efficiency and career advancement.
-
-
-Our intuitive interface provides a comprehensive overview of your entire job application journey. Escape email overload with our email grouping feature. The tracker organizes your inbox by company, auto-fills email addresses based on company names, and flags applications with unread emails. Effortlessly archive inactive applications, switch between display modes, and sort applications by different priorities. Update interview and assessment details seamlessly through our intuitive interface using smart dropdown menus.
+Introducing our Job Application Tracker, a sophisticated solution for managing applications. Powered by a robust .NET Web API backend and integrated with Microsoft Graph, this platform sets a new standard in organisational efficiency and career advancement.
 
 ## Calendar 
 The calendar interface offers a user-friendly and intuitive display of all scheduled events. It presents clickable tiles that reveal the events for a selected date when clicked upon. To add an event, users can easily access the "Add Event" button, triggering a pop-up form where they can input event details and submit them for inclusion in their calendars. Similarly, events can be effortlessly deleted using the designated delete button.
 
-Meetings are specifically highlighted with a distinctive green box. By clicking on a meeting event, users can access a concise summary, which proves beneficial in cases where attendance is not possible. This time-saving feature significantly enhances productivity by allowing participants to quickly review essential points and take necessary actions. The provision of meeting summaries streamlines collaboration and optimises valuable working hours. More information on transcript summaries is below. 
 
 ## Overview
 
